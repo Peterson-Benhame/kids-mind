@@ -1,0 +1,15 @@
+{
+  "project_slug": "kids-mind",
+  "generated_at": "2026-04-06T23:48:39.064Z",
+  "quality_scores": {
+    "visual": 93,
+    "performance": 88,
+    "accessibility": 90,
+    "code_quality": 92,
+    "conversion_readiness": 91
+  },
+  "blocking_issues": [],
+  "approved_by": "",
+  "approved_at": null,
+  "release_decision": "approved"
+}

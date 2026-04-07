@@ -1,0 +1,32 @@
+snapshot_id: snapshot-kids-mind-1775516579692
+created_at: 2026-04-06T23:02:59.688Z
+workflow_version: 0.1.0
+observer_version: 0.1.0
+bmad_module_version: antigravity-workspace
+handoff_schema_version: 0.2.0
+agents:
+  -
+    agent_id: antigravity-curator
+    agent_version: 0.1.0
+    template_version: 0.1.0
+    skill_path: .agents/skills/curator/SKILL.md
+  -
+    agent_id: antigravity-architect
+    agent_version: 0.1.0
+    template_version: 0.1.0
+    skill_path: .agents/skills/architect/SKILL.md
+  -
+    agent_id: antigravity-builder
+    agent_version: 0.1.0
+    template_version: 0.1.0
+    skill_path: .agents/skills/builder/SKILL.md
+  -
+    agent_id: antigravity-designer
+    agent_version: 0.1.0
+    template_version: 0.1.0
+    skill_path: .agents/skills/designer/SKILL.md
+  -
+    agent_id: antigravity-qa
+    agent_version: 0.1.0
+    template_version: 0.1.0
+    skill_path: .agents/skills/qa/SKILL.md

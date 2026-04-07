@@ -1,0 +1,16 @@
+project_slug: kids-mind
+project_name: Kids Mind
+client_name: Kids Mind
+project_type: landing_page
+client_segment: maternidade e desenvolvimento infantil
+stack_profile: react-vite-ts-tailwind-framer-lucide
+status: qa_complete
+start_date: 2026-04-06T23:02:59.688Z
+delivery_date: null
+reference_urls:
+  - https://lovevery.com/products/the-play-kits
+tags:
+  - landing-page
+  - infoproduto
+  - maternidade
+  - montessori

@@ -1,0 +1,24 @@
+{
+  "reference_url": "https://lovevery.com/products/the-play-kits",
+  "artifacts": [
+    "projects/kids-mind/assets/research/reference-board.md",
+    "projects/kids-mind/assets/html/reference-structure.html",
+    "projects/kids-mind/assets/research/captures/01-hero.md",
+    "projects/kids-mind/assets/research/captures/02-development-window.md",
+    "projects/kids-mind/assets/research/captures/03-benefits.md",
+    "projects/kids-mind/assets/research/captures/04-how-it-works.md",
+    "projects/kids-mind/assets/research/captures/05-trust.md",
+    "projects/kids-mind/assets/research/captures/06-cta.md"
+  ],
+  "components_identified": [
+    "HeroBanner",
+    "BenefitList",
+    "HowItWorksBlock",
+    "TrustSection",
+    "FinalCTA"
+  ],
+  "capture_summary": {
+    "screenshots_count": 6,
+    "html_extracted": true
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "project": "Kids Mind",
+  "project_slug": "kids-mind",
+  "started_at": "2026-04-06T23:02:59.688Z",
+  "current_phase": "fase_6_retro",
+  "current_status": "pending",
+  "phases": {
+    "fase_0_inicializacao": {
+      "status": "complete",
+      "agent": "antigravity-project-init",
+      "started_at": "2026-04-06T23:02:59.688Z",
+      "completed_at": "2026-04-06T23:02:59.688Z",
+      "artifacts": [
+        "projects/kids-mind/.memory/00-meta/project.yaml",
+        "projects/kids-mind/.memory/00-meta/agent-snapshot.yaml",
+        "projects/kids-mind/pipeline_status.json"
+      ]
+    },
+    "fase_1_captacao": {
+      "status": "complete",
+      "agent": "agente_curator",
+      "agent_id": "antigravity-curator",
+      "handoff_file": "projects/kids-mind/handoffs/curator_output.json",
+      "artifacts": [
+        "projects/kids-mind/assets/research/reference-board.md",
+        "projects/kids-mind/assets/html/reference-structure.html",
+        "projects/kids-mind/assets/research/captures/01-hero.md",
+        "projects/kids-mind/assets/research/captures/02-development-window.md",
+        "projects/kids-mind/assets/research/captures/03-benefits.md",
+        "projects/kids-mind/assets/research/captures/04-how-it-works.md",
+        "projects/kids-mind/assets/research/captures/05-trust.md",
+        "projects/kids-mind/assets/research/captures/06-cta.md"
+      ],
+      "updated_at": "2026-04-06T23:32:05.755Z",
+      "completed_at": "2026-04-06T23:32:05.755Z"
+    },
+    "fase_2_arquitetura": {
+      "status": "complete",
+      "agent": "agente_architect",
+      "agent_id": "antigravity-architect",
+      "handoff_file": "projects/kids-mind/handoffs/architect_output.json",
+      "artifacts": [
+        "projects/kids-mind/docs/blueprint/section-map.md",
+        "projects/kids-mind/docs/blueprint/component-tree.md",
+        "projects/kids-mind/docs/blueprint/token-system.md"
+      ],
+      "updated_at": "2026-04-06T23:32:05.857Z",
+      "completed_at": "2026-04-06T23:32:05.857Z"
+    },
+    "fase_3_construcao": {
+      "status": "complete",
+      "agent": "agente_builder",
+      "agent_id": "antigravity-builder",
+      "handoff_file": "projects/kids-mind/handoffs/builder_output.json",
+      "artifacts": [
+        "projects/kids-mind/package.json",
+        "projects/kids-mind/tailwind.config.ts",
+        "projects/kids-mind/src/App.tsx",
+        "projects/kids-mind/src/components/layout/SiteHeader.tsx",
+        "projects/kids-mind/src/components/features/HeroVisual.tsx",
+        "projects/kids-mind/src/sections/HeroSection.tsx",
+        "projects/kids-mind/src/sections/KitSection.tsx",
+        "projects/kids-mind/src/styles/globals.css"
+      ],
+      "updated_at": "2026-04-06T23:32:05.928Z",
+      "completed_at": "2026-04-06T23:32:05.928Z"
+    },
+    "fase_4_refinamento": {
+      "status": "complete",
+      "agent": "agente_designer",
+      "agent_id": "antigravity-designer",
+      "handoff_file": "projects/kids-mind/handoffs/designer_output.json",
+      "artifacts": [
+        "projects/kids-mind/src/lib/content.ts",
+        "projects/kids-mind/index.html",
+        "projects/kids-mind/public/favicon.svg",
+        "projects/kids-mind/tailwind.config.ts",
+        "projects/kids-mind/src/components/layout/SiteHeader.tsx",
+        "projects/kids-mind/src/components/ui/PrimaryButton.tsx",
+        "projects/kids-mind/src/components/ui/SectionIntro.tsx",
+        "projects/kids-mind/src/styles/globals.css",
+        "projects/kids-mind/src/components/features/HeroVisual.tsx",
+        "projects/kids-mind/src/sections/HeroSection.tsx",
+        "projects/kids-mind/src/sections/UncertaintySection.tsx",
+        "projects/kids-mind/src/sections/DevelopmentSection.tsx",
+        "projects/kids-mind/src/sections/ErrorSection.tsx",
+        "projects/kids-mind/src/sections/KitSection.tsx",
+        "projects/kids-mind/src/sections/BenefitsSection.tsx",
+        "projects/kids-mind/src/sections/DecisionSection.tsx"
+      ],
+      "updated_at": "2026-04-06T23:48:38.998Z",
+      "completed_at": "2026-04-06T23:48:38.998Z"
+    },
+    "fase_5_qualidade": {
+      "status": "complete",
+      "agent": "agente_qa",
+      "agent_id": "antigravity-qa",
+      "handoff_file": "projects/kids-mind/handoffs/qa_output.json",
+      "artifacts": [
+        "projects/kids-mind/reports/qa/lighthouse-summary.md",
+        "projects/kids-mind/reports/qa/responsive-checklist.md",
+        "projects/kids-mind/dist/index.html",
+        "projects/kids-mind/dist/assets/index-BAy82XkR.css",
+        "projects/kids-mind/dist/assets/index-CCJl1rIj.js"
+      ],
+      "updated_at": "2026-04-06T23:48:39.077Z",
+      "completed_at": "2026-04-06T23:48:39.077Z"
+    },
+    "fase_6_retro": {
+      "status": "pending"
+    },
+    "fase_7_promocao": {
+      "status": "pending"
+    }
+  },
+  "handoffs": {
+    "fase_1_captacao": "projects/kids-mind/handoffs/curator_output.json",
+    "fase_2_arquitetura": "projects/kids-mind/handoffs/architect_output.json",
+    "fase_3_construcao": "projects/kids-mind/handoffs/builder_output.json",
+    "fase_4_refinamento": "projects/kids-mind/handoffs/designer_output.json",
+    "fase_5_qualidade": "projects/kids-mind/handoffs/qa_output.json"
+  },
+  "feedback_loops": [],
+  "promotion": {
+    "status": "pending",
+    "candidate_count": 0,
+    "last_reviewed_at": null
+  },
+  "total_elapsed": "46m",
+  "last_updated_at": "2026-04-06T23:48:39.077Z"
+}
